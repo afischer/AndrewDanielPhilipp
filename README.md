@@ -18,22 +18,21 @@
 Here's how the project is laid out. Keep it clean, name your files nicely, and edit this when you make large changes.
 ```
 .
-├─── README.md
-├─── app.py
-│
-├───/static
-│   ├──/css
-│   │	└── stylesheet.css
-│   │
-│   ├──/js
-│   │   └── script.js
-│   │	
-│   └──/img
-│	└── Images will go here...
-│  
-└───/utils
-     └── __init__.py
-     └── Any other submodules we make...
+├── README.md
+├── app.py
+├── static
+│   ├── css
+│   │   └── stylesheet.css
+│   ├── img
+│   │   └── Images go here.
+│   └── js
+│       └── script.js
+├── templates
+│   ├── base.html
+│   └── index.html
+└── utils
+    └── __init__.py
+    └── Any submodules we make.
 
 ```
 
