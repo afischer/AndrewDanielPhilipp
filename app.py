@@ -19,6 +19,10 @@ def base():
                            projectName="Our Project"
                           )
 
+@app.route("/poststemplate")
+def postsTemplate():
+    return render_template("postsTemplate.html")
+
 
 if __name__=="__main__":
     app.debug=True
