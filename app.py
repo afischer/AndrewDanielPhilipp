@@ -21,7 +21,9 @@ def base():
 
 @app.route("/poststemplate")
 def postsTemplate():
-    return render_template("postsTemplate.html")
+    return render_template("postsTemplate.html",
+                           projectName="Our Project"
+                          )
 
 
 if __name__=="__main__":
